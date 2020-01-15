@@ -1,0 +1,2 @@
+# resimKucult
+Toplu Resim Küçültme
