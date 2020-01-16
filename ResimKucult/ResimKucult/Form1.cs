@@ -14,8 +14,6 @@ namespace ResimKucult
             InitializeComponent();
         }
 
-        #region Olaylar
-
         private void Form1_Load(object sender, EventArgs e)
         {
             CheckForIllegalCrossThreadCalls = false;
@@ -71,10 +69,6 @@ namespace ResimKucult
             if (!char.IsDigit(e.KeyChar))
                 e.KeyChar = 'q';
         }
-
-        #endregion
-
-        #region Methodlar
 
         private void Islem()
         {
@@ -175,7 +169,5 @@ namespace ResimKucult
                     return codecs[i];
             return null;
         }
-
-        #endregion
     }
 }
